@@ -1,7 +1,7 @@
 use Mix.Config
 
 # Configure database
-config :elixir_test_app, ElixirTestApp.Repo,
+config :bubbleschat, BubbleschatWeb.Repo,
 adapter: Ecto.Adapters.Postgres,
 url: System.get_env("DATABASE_URL"),
 pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10"),
