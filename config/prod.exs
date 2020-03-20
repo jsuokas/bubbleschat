@@ -1,5 +1,13 @@
 use Mix.Config
 
+config :bubbleschat, Bubbleschat.Repo,
+  username: "postgres",
+  password: "+dbWUjah2XOGC3Z5qxiyWhH4NLKJxX+kIK9cmS8b+3nrLLsVpBijAHDyZxqdTs3Q",
+  database: "postgres://gtwmnnuohxnddy:d2d5bddd042b274804ac73319c0403383199b62697fdb54882319e780c9f0a91@ec2-34-193-232-231.compute-1.amazonaws.com:5432/d65qs5652oenqk",
+  hostname: "localhost",
+  show_sensitive_data_on_connection_error: true,
+  pool_size: 18
+
 # For production, don't forget to configure the url host
 # to something meaningful, Phoenix uses this information
 # when generating URLs.
